@@ -21,7 +21,8 @@
      cout << endl;
 
     cout << "Tecle <Enter> para encerrar...";
-     cin.get();
+    cin.ignore();
+    cin.get();
 
      return 0;
  }
